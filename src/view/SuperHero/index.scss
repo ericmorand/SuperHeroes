@@ -1,0 +1,17 @@
+.super-hero-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  .cell {
+    flex-basis: 50px;
+    flex-shrink: 0;
+    border: solid 5px blanchedalmond;
+    margin-right: 0.5em;
+    margin-bottom: 0.5em;
+  }
+}
+
+.super-hero {
+
+}
